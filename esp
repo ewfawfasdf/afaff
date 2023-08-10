@@ -3,7 +3,7 @@ if not game:IsLoaded() then
 end
 
 --//Toggle\\--
-getgenv().Toggle = true -- This toggles the esp, turning it to false will turn it off
+getgenv().Toggle = tostring(Value) -- This toggles the esp, turning it to false will turn it off
 getgenv().TC = false -- This toggles team check, turning it on will turn on team check
 local PlayerName = "DisplayName" -- You can decide if you want the Player's name to be a display name which is "DisplayName", or username which is "Name"
 
